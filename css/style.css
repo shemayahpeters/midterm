@@ -1,0 +1,87 @@
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+img,video{width: auto; max-width: 100%; height: auto; margin: 0 auto 1em;}
+
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+li{
+display:inline;
+}
+
+body{
+	width:96%;
+	margin:0 auto;
+	border:0.5px dotted #006565; 
+	background-color: #99ccff;
+	font-family: helvetica;
+}
+
+p{ margin-bottom: 1em auto;
+	font-size: 1em;
+
+}
+
+h1{color: #778678;
+	font-size: 3em;
+	line-height: 1.6;
+
+}
+
+h2{
+	font-size: 2.4;
+	color: #778678;
+	line-height: 1.2;
+}
+
+h3{
+	font-size: 1.5em;
+	color: #cf5546;
+	line-height: 1.1;
+}
+
+.track{
+	width: 96%; /*600/800 */
+	background-color:#006565;
+	padding: 10% 20%
+
+}
+
+.session{
+	background-color: white;
+	margin-bottom: 0em auto;
+	padding: 2%;
+}
+-----------------------------------------------
+ABOUT CSS
+-----------------------------------------------
+
+.location{margin-bottom: 1em;
+	padding: 2%;
+color:#006565; 
+}
+
+.map{margin-bottom: 0.1em;
+	padding: 2%;color:#006565; }
+
+.date-time{margin-bottom: 0.1em;
+	padding: 2%;color:#006565;
+
+}
+
+.about{margin-bottom: 1em; margin-top:0.1em; 
+	padding: 2%;color:#006565;
+
+}
+
+.direction{
+	color:#006565;
+	margin-bottom: 1em;
+	padding: 2%;
+}
